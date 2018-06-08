@@ -15,6 +15,8 @@
 		FF5A365420CAEBFA0075E532 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5A365320CAEBFA0075E532 /* main.m */; };
 		FF5A365E20CAEBFB0075E532 /* CollectionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5A365D20CAEBFB0075E532 /* CollectionDemoTests.m */; };
 		FF5A366920CAEBFB0075E532 /* CollectionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5A366820CAEBFB0075E532 /* CollectionDemoUITests.m */; };
+		FF5A367820CAEC510075E532 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5A367720CAEC510075E532 /* CollectionViewCell.m */; };
+		FF5A367A20CAF3B90075E532 /* Resopnse.json in Resources */ = {isa = PBXBuildFile; fileRef = FF5A367920CAF3B90075E532 /* Resopnse.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		FF5A366420CAEBFB0075E532 /* CollectionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5A366820CAEBFB0075E532 /* CollectionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionDemoUITests.m; sourceTree = "<group>"; };
 		FF5A366A20CAEBFB0075E532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF5A367620CAEC510075E532 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		FF5A367720CAEC510075E532 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		FF5A367920CAF3B90075E532 /* Resopnse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Resopnse.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +110,14 @@
 				FF5A364520CAEBF90075E532 /* AppDelegate.m */,
 				FF5A364720CAEBF90075E532 /* ViewController.h */,
 				FF5A364820CAEBF90075E532 /* ViewController.m */,
+				FF5A367620CAEC510075E532 /* CollectionViewCell.h */,
+				FF5A367720CAEC510075E532 /* CollectionViewCell.m */,
 				FF5A364A20CAEBF90075E532 /* Main.storyboard */,
 				FF5A364D20CAEBFA0075E532 /* Assets.xcassets */,
 				FF5A364F20CAEBFA0075E532 /* LaunchScreen.storyboard */,
 				FF5A365220CAEBFA0075E532 /* Info.plist */,
 				FF5A365320CAEBFA0075E532 /* main.m */,
+				FF5A367920CAF3B90075E532 /* Resopnse.json */,
 			);
 			path = CollectionDemo;
 			sourceTree = "<group>";
@@ -235,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF5A367A20CAF3B90075E532 /* Resopnse.json in Resources */,
 				FF5A365120CAEBFA0075E532 /* LaunchScreen.storyboard in Resources */,
 				FF5A364E20CAEBFA0075E532 /* Assets.xcassets in Resources */,
 				FF5A364C20CAEBF90075E532 /* Main.storyboard in Resources */,
@@ -264,6 +273,7 @@
 			files = (
 				FF5A364920CAEBF90075E532 /* ViewController.m in Sources */,
 				FF5A365420CAEBFA0075E532 /* main.m in Sources */,
+				FF5A367820CAEC510075E532 /* CollectionViewCell.m in Sources */,
 				FF5A364620CAEBF90075E532 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
